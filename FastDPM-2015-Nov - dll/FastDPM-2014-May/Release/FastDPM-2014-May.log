@@ -1,0 +1,50 @@
+﻿生成启动时间为 2017/12/15 16:02:53。
+     1>项目“F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\FastDPM-2014-May\FastDPM-2014-May.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013安装\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         D:\VS2013安装\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.dll" /INCREMENTAL:NO /NOLOGO opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.lib" /MACHINE:X86 /SAFESEH /DLL Release\FastDPM.obj
+         Release\loadPyramid.obj
+         Release\main.obj
+         Release\yuStdDirFiles.obj
+         Release\cvPrint.obj
+         Release\getCurrentTime.obj
+         Release\yuSaveMat.obj
+         Release\analyze_model.obj
+         Release\apply_rules.obj
+         Release\apply_rules2.obj
+         Release\apply_rules3.obj
+         Release\bboxpred_get.obj
+         Release\bboxpred_input.obj
+         Release\bounded_dt.obj
+         Release\bounded_dt2.obj
+         Release\clipboxes.obj
+         Release\cvPermutate.obj
+         Release\detections_trees2.obj
+         Release\draw_img.obj
+         Release\fconv.obj
+         Release\featpyramid.obj
+         Release\featpyramid2.obj
+         Release\features.obj
+         Release\features14_2.obj
+         Release\flipfeat.obj
+         Release\get_score_size.obj
+         Release\load_model.obj
+         Release\loc_feat.obj
+         Release\model_get_block.obj
+         Release\nms.obj
+         Release\parse_detections.obj
+         Release\pDollar_nms.obj
+         Release\reduceboxes.obj
+         Release\sum_score.obj
+         Release\yuInd2Sub.obj
+            正在创建库 F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.lib 和对象 F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.exp
+         正在生成代码
+         已完成代码的生成
+         FastDPM-2014-May.vcxproj -> F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\Release\FastDPM-2014-May.dll
+     1>已完成生成项目“F:\ObjectDetection\DPM\yxp\FastDPM-2015-Nov - dll\FastDPM-2014-May\FastDPM-2014-May.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.35

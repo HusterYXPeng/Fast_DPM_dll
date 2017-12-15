@@ -1,0 +1,91 @@
+﻿生成启动时间为 2017/11/2 21:17:24。
+     1>项目“E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\FastDPM-2014-May\FastDPM-2014-May.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\Install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FastDPM.cpp loadPyramid.cpp main.cpp yuStdDirFiles.cpp auxiliary\cvPrint.cpp auxiliary\getCurrentTime.cpp auxiliary\yuSaveMat.cpp funs\analyze_model.cpp funs\apply_rules.cpp funs\apply_rules2.cpp funs\apply_rules3.cpp funs\bboxpred_get.cpp funs\bboxpred_input.cpp funs\bounded_dt.cpp funs\bounded_dt2.cpp funs\clipboxes.cpp funs\cvPermutate.cpp funs\detections_trees2.cpp funs\draw_img.cpp funs\fconv.cpp funs\featpyramid.cpp funs\featpyramid2.cpp funs\features.cpp funs\features14_2.cpp funs\flipfeat.cpp funs\get_score_size.cpp funs\load_model.cpp funs\loc_feat.cpp funs\model_get_block.cpp funs\nms.cpp funs\parse_detections.cpp funs\pDollar_nms.cpp funs\reduceboxes.cpp funs\sum_score.cpp funs\yuInd2Sub.cpp
+         yuInd2Sub.cpp
+         sum_score.cpp
+         reduceboxes.cpp
+         pDollar_nms.cpp
+         parse_detections.cpp
+         nms.cpp
+         model_get_block.cpp
+         loc_feat.cpp
+         load_model.cpp
+         get_score_size.cpp
+         flipfeat.cpp
+         features14_2.cpp
+         features.cpp
+         featpyramid2.cpp
+         featpyramid.cpp
+         fconv.cpp
+         draw_img.cpp
+         detections_trees2.cpp
+         cvPermutate.cpp
+         clipboxes.cpp
+         正在生成代码...
+         正在编译...
+         bounded_dt2.cpp
+         bounded_dt.cpp
+         bboxpred_input.cpp
+         bboxpred_get.cpp
+         apply_rules3.cpp
+         apply_rules2.cpp
+         apply_rules.cpp
+         analyze_model.cpp
+         yuSaveMat.cpp
+         getCurrentTime.cpp
+         cvPrint.cpp
+         yuStdDirFiles.cpp
+         main.cpp
+         loadPyramid.cpp
+         FastDPM.cpp
+         正在生成代码...
+       Link:
+         D:\VS2013\Install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\Debug\FastDPM-2014-May.exe" /INCREMENTAL /NOLOGO opencv_nonfree249d.lib opencv_features2d249d.lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib opencv_nonfree249d.lib opencv_features2d249d.lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\Debug\FastDPM-2014-May.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\Debug\FastDPM-2014-May.lib" /MACHINE:X86 /SAFESEH Debug\FastDPM.obj
+         Debug\loadPyramid.obj
+         Debug\main.obj
+         Debug\yuStdDirFiles.obj
+         Debug\cvPrint.obj
+         Debug\getCurrentTime.obj
+         Debug\yuSaveMat.obj
+         Debug\analyze_model.obj
+         Debug\apply_rules.obj
+         Debug\apply_rules2.obj
+         Debug\apply_rules3.obj
+         Debug\bboxpred_get.obj
+         Debug\bboxpred_input.obj
+         Debug\bounded_dt.obj
+         Debug\bounded_dt2.obj
+         Debug\clipboxes.obj
+         Debug\cvPermutate.obj
+         Debug\detections_trees2.obj
+         Debug\draw_img.obj
+         Debug\fconv.obj
+         Debug\featpyramid.obj
+         Debug\featpyramid2.obj
+         Debug\features.obj
+         Debug\features14_2.obj
+         Debug\flipfeat.obj
+         Debug\get_score_size.obj
+         Debug\load_model.obj
+         Debug\loc_feat.obj
+         Debug\model_get_block.obj
+         Debug\nms.obj
+         Debug\parse_detections.obj
+         Debug\pDollar_nms.obj
+         Debug\reduceboxes.obj
+         Debug\sum_score.obj
+         Debug\yuInd2Sub.obj
+     1>FastDPM.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>apply_rules2.obj : error LNK2019: 无法解析的外部符号 __imp__pthread_create，该符号在函数 "void __cdecl PM_type::apply_rules2(struct PM_type::MODEL &,struct PM_type::FEATURE_PYRAMID &)" (?apply_rules2@PM_type@@YAXAAUMODEL@1@AAUFEATURE_PYRAMID@1@@Z) 中被引用
+     1>apply_rules3.obj : error LNK2001: 无法解析的外部符号 __imp__pthread_create
+     1>featpyramid.obj : error LNK2001: 无法解析的外部符号 __imp__pthread_create
+     1>apply_rules2.obj : error LNK2019: 无法解析的外部符号 __imp__pthread_join，该符号在函数 "void __cdecl PM_type::apply_rules2(struct PM_type::MODEL &,struct PM_type::FEATURE_PYRAMID &)" (?apply_rules2@PM_type@@YAXAAUMODEL@1@AAUFEATURE_PYRAMID@1@@Z) 中被引用
+     1>apply_rules3.obj : error LNK2001: 无法解析的外部符号 __imp__pthread_join
+     1>featpyramid.obj : error LNK2001: 无法解析的外部符号 __imp__pthread_join
+     1>E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\Debug\FastDPM-2014-May.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\ruanjianbao\VS2012\VSO\VS\V\FastDPM-2015-Nov\FastDPM-2014-May\FastDPM-2014-May.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:51.36
